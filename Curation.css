@@ -1,0 +1,70 @@
+html{
+    height: 100%;
+    
+    }
+    
+    body{
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    }
+    
+    .home_button{
+        text-align:end;
+    }
+    
+    
+    header{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(228, 221, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    }
+    
+    h2{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(228, 221, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    }
+    
+    main{
+    background-position: center;
+    padding-top: 120px;
+    padding-left: auto;
+    text-align: center;
+    
+    }
+    
+    .text{
+    color: rgb(228, 221, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 1120px ;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: justify;
+    }
+    
+    
+    footer{
+    color: rgb(228, 221, 204);
+    padding-top: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    
+    }
+    
+    .mail_button{
+    color: rgb(228, 221, 204);
+    font-size: 20px;
+    }
+    
+    .button{
+    padding-left: 10px;
+    }

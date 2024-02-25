@@ -1,70 +1,223 @@
 html{
-    height: 100%;
-    
-    }
-    
-    body{
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: black;
-    }
-    
-    .home_button{
-        text-align:end;
-    }
-    
-    
-    header{
-    padding-top: 30px;
-    text-align: center;
-    color: rgb(228, 221, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-    }
-    
-    h2{
+height: 100%;
+
+}
+
+body{
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+background-color: black;
+}
+
+.home_button{
+text-align:end;
+}
+
+
+header{
+padding-top: 30px;
+text-align: center;
+color: rgb(228, 221, 204);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+}
+
+h2{
+padding-top: 10px;
+text-align: center;
+color: rgb(228, 221, 204);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+
+h5{
     padding-top: 10px;
     text-align: center;
     color: rgb(228, 221, 204);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    }
+    font-size: 10px;
+}
+
+main{
+background-position: center;
+padding-top: 120px;
+padding-left: auto;
+text-align: center;
+
+}
+
+.text{
+color: rgb(155, 147, 130);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+padding-top: 80px;
+padding-bottom: 80px;
+text-align: justify;
+}
+
+
+footer{
+color: rgb(228, 221, 204);
+padding-top: 200px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-align: center;
+
+}
+
+.mail_button{
+color: rgb(228, 221, 204);
+font-size: 20px;
+}
+
+.button{
+padding-left: 10px;
+}
+
+@media only screen and (min-width:150px){
+
+header{
+padding-top: 20px;
+font-size: 30px;
+}
+
+.img{
+padding-top: 30px;
+width: 150px;
+min-height:100px;
+}
+
+.text{
+font-size: 17px;
+padding-top: 50px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:300px){
+
+header{
+padding-top: 30px;
+font-size: 40px;
+}
+
+.img{
+padding-top: 30px;
+width: 300px;
+min-height:200px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:500px) {
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 22px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.img{
+padding-top: 30px;
+width: 500px;
+min-height:400px;
+}
+}
+
+@media only screen and (min-width:700px) {
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.img{
+padding-top: 30px;
+width: 600px;
+height: 500px;
+}
+}
+
+@media only screen and (min-width:1000px) {
+
+header{
+padding-top: 30px;
+font-size: 60px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 45px;
+padding-right: 45px;
+}
+
+.img{
+padding-top: 30px;
+width: 900px;
+height: 700px;
+}
+}
+
+@media only screen and (min-width:1300px) {
     
-    main{
-    background-position: center;
-    padding-top: 120px;
-    padding-left: auto;
-    text-align: center;
-    
+    header{
+    padding-top: 30px;
+    font-size: 70px;
     }
     
     .text{
-    color: rgb(228, 221, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    width: 1120px ;
-    margin: auto;
+    font-size: 25px;
     padding-top: 80px;
-    padding-bottom: 80px;
-    text-align: justify;
+    padding-left: 85px;
+    padding-right: 85px;
     }
     
-    
-    footer{
-    color: rgb(228, 221, 204);
-    padding-top: 200px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: center;
-    
+    .img{
+    padding-top: 30px;
+    width: 1100px;
+    height: 900px;
     }
-    
-    .mail_button{
-    color: rgb(228, 221, 204);
-    font-size: 20px;
     }
-    
-    .button{
-    padding-left: 10px;
-    }
+
+    @media only screen and (min-width:1800px) {
+
+        header{
+        padding-top: 30px;
+        font-size: 100px;
+        }
+        
+        .text{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 185px;
+        padding-right: 185px;
+        }
+        
+        .img{
+        padding-top: 30px;
+        width: 1500px;
+        height: 900px;
+        }
+        }

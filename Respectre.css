@@ -1,6 +1,5 @@
 html{
-    height: 100%;
-    
+    height: 100%; 
     }
     
     body{
@@ -14,50 +13,43 @@ html{
         text-align:end;
     }
     
-    
     header{
-    padding-top: 30px;
-    text-align: center;
-    color: rgb(228, 221, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
+        padding-top: 30px;
+        text-align: center;
+        color: rgb(228, 221, 204);
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     h2{
-    padding-top: 10px;
-    text-align: center;
-    color: rgb(228, 221, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+        padding-top: 10px;
+        text-align: center;
+        color: rgb(228, 221, 204);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
     }
     
     main{
-    background-position: center;
-    padding-top: 120px;
-    padding-left: auto;
-    text-align: center;
-    
+        background-position: center;
+        padding-top: 120px;
+        padding-left: auto;
+        text-align: center;
     }
     
     .text{
-    color: rgb(228, 221, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    width: 1120px ;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom:80px;
-    text-align: justify;
+        color: rgb(155, 147, 130);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        text-align: justify;
     }
-    
-    
+      
     footer{
-    color: rgb(228, 221, 204);
-    padding-top: 200px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: center;
-    
+        color: rgb(228, 221, 204);
+        padding-top: 200px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: center;
     }
     
     .mail_button{
@@ -68,3 +60,149 @@ html{
     .button{
     padding-left: 10px;
     }
+
+    @media only screen and (min-width:150px){
+
+        header{
+        padding-top: 20px;
+        font-size: 30px;
+        }
+        
+        .img{
+        padding-top: 30px;
+        width: 200px;
+        min-height:80px;
+        }
+        
+        .text{
+        font-size: 17px;
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+        }
+        
+        @media only screen and (min-width:300px){
+        
+        header{
+        padding-top: 30px;
+        font-size: 50px;
+        }
+        
+        .img{
+        padding-top: 30px;
+        width: 300px;
+        min-height:170px;
+        }
+        
+        .text{
+        font-size: 19px;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+        }
+        
+        @media only screen and (min-width:500px) {
+        
+        header{
+        padding-top: 30px;
+        font-size: 50px;
+        }
+        
+        .text{
+        font-size: 22px;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+        
+        .img{
+        padding-top: 30px;
+        width: 500px;
+        min-height:370px;
+        }
+        }
+        
+        @media only screen and (min-width:700px) {
+        
+        header{
+        padding-top: 30px;
+        font-size: 80px;
+        }
+        
+        .text{
+        font-size: 19px;
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+        
+        .img{
+        padding-top: 30px;
+        width: 700px;
+        height: 470px;
+        }
+        }
+        
+        @media only screen and (min-width:1000px) {
+        
+        header{
+        padding-top: 30px;
+        font-size: 80px;
+        }
+        
+        .text{
+        font-size: 19px;
+        padding-top: 80px;
+        padding-left: 45px;
+        padding-right: 45px;
+        }
+        
+        .img{
+        padding-top: 30px;
+        width: 1000px;
+        height: 700px;
+        }
+        }
+        
+        @media only screen and (min-width:1300px) {
+        
+        header{
+        padding-top: 30px;
+        font-size: 100px;
+        }
+        
+        .text{
+        font-size: 25px;
+        padding-top: 80px;
+        padding-left: 85px;
+        padding-right: 85px;
+        }
+        
+        .img{
+        padding-top: 80px;
+        width: 1300px;
+        height: 900px;
+        }
+        }
+        
+        @media only screen and (min-width:1800px) {
+        
+        header{
+        padding-top: 30px;
+        font-size: 100px;
+        }
+        
+        .text{
+        font-size: 25px;
+        padding-top: 80px;
+    
+        }
+        
+        .img{
+        padding-top: 80px;
+        width: 1800px;
+        height: 900px;
+        }
+        }

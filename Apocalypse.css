@@ -11,16 +11,15 @@ background-color: black;
 }
 
 .home_button{
-    text-align:end;
+text-align:end;
 }
 
 
 header{
-padding-top: 30px;
+padding-left: auto;
 text-align: center;
 color: rgb(228, 221, 204);
 font-family: Arial, Helvetica, sans-serif;
-font-size: 70px;
 }
 
 h2{
@@ -34,19 +33,20 @@ font-size: 30px;
 main{
 background-position: center;
 padding-top: 120px;
-padding-left: auto;
 text-align: center;
-
 }
 
 .text{
-color: rgb(228, 221, 204);
+color: rgb(155, 147, 130);
 font-family: Arial, Helvetica, sans-serif;
-font-size: 22px;
-width: 1120px ;
-margin: auto;
+font-size: 17px;
 padding-top: 80px;
 text-align: justify;
+}
+
+.video{
+padding-left: auto;
+text-align: center;
 }
 
 
@@ -67,3 +67,150 @@ font-size: 20px;
 .button{
 padding-left: 10px;
 }
+
+@media only screen and (min-width:150px){
+
+header{
+padding-top: 20px;
+font-size: 30px;
+}
+
+.video{
+width: 150px;
+height: 100px;
+}
+
+.brainstorm img{
+padding-top: 30px;
+width: 150px;
+}
+
+.text{
+font-size: 17px;
+padding-top: 50px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:300px) {
+
+.video{
+width: 300px;
+height: 200px;
+}
+
+header{
+padding-top: 30px;
+font-size: 40px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:500px) {
+
+.video{
+width: 500px;
+height: 400px;
+}
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 22px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:700px) {
+
+.video{
+width: 600px;
+height: 500px;
+}
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:1000px) {
+
+.video{
+width: 900px;
+height: 700px;
+}
+
+header{
+padding-top: 30px;
+font-size: 60px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 45px;
+padding-right: 45px;
+}
+}
+
+@media only screen and (min-width:1300px) {
+
+.video{
+width: 1100px;
+height: 900px;
+}
+
+header{
+padding-top: 30px;
+font-size: 70px;
+}
+
+.text{
+font-size: 25px;
+padding-top: 80px;
+padding-left: 85px;
+padding-right: 85px;
+}
+}
+
+@media only screen and (min-width:1800px) {
+.video{
+width: 1500px;
+height: 900px;
+}
+
+header{
+padding-top: 30px;
+font-size: 80px;
+}
+
+.text{
+font-size: 25px;
+padding-top: 80px;
+padding-left: 185px;
+padding-right: 185px;
+}
+}
+
+
+

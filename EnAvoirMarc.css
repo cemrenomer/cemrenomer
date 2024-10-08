@@ -1,217 +1,270 @@
 html{
-    height: 100%;
-    
-    }
-    
-    body{
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: black;
-    }
-    
-    .home_button{
-    text-align:end;
-    }
-    
-    
-    header{
-    padding-left: auto;
-    text-align: center;
-    color: rgb(228, 221, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    h2{
-    padding-top: 10px;
-    text-align: center;
-    color: rgb(228, 221, 204);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    }
-    
-    main{
-    background-position: center;
-    padding-top: 120px;
-    text-align: center;
-    }
-    
-    .text{
-    color: rgb(155, 147, 130);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 80px;
-    text-align: justify;
-    }
-    
-    .video{
-    padding-left: auto;
-    text-align: center;
-    }
-    
-    
-    footer{
-    color: rgb(228, 221, 204);
-    padding-top: 200px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    text-align: center;
-    
-    }
-    
-    .mail_button{
-    color: rgb(228, 221, 204);
-    font-size: 20px;
-    }
-    
-    .button{
-    padding-left: 10px;
-    }
-    
-    @media only screen and (min-width:150px){
-    
-    header{
-    padding-top: 20px;
-    font-size: 30px;
-    }
-    
-    .video{
-    width: 150px;
-    height: 100px;
-    }
-    
-    .brainstorm img{
-    padding-top: 30px;
-    width: 150px;
-    }
-    
-    .text{
-    font-size: 17px;
-    padding-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-    }
-    
-    @media only screen and (min-width:300px) {
-    
-    .video{
-    width: 300px;
-    height: 200px;
-    }
-    
-    header{
-    padding-top: 30px;
-    font-size: 40px;
-    }
-    
-    .text{
-    font-size: 19px;
-    padding-top: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-    }
-    
-    @media only screen and (min-width:500px) {
-    
-    .video{
-    width: 500px;
-    height: 400px;
-    }
-    
-    header{
-    padding-top: 30px;
-    font-size: 50px;
-    }
-    
-    .text{
-    font-size: 22px;
-    padding-top: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-    }
-    
-    @media only screen and (min-width:700px) {
-    
-    .video{
-    width: 600px;
-    height: 500px;
-    }
-    
-    header{
-    padding-top: 30px;
-    font-size: 50px;
-    }
-    
-    .text{
-    font-size: 19px;
-    padding-top: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
-    }
-    
-    @media only screen and (min-width:1000px) {
-    
-    .video{
-    width: 900px;
-    height: 700px;
-    }
-    
-    header{
-    padding-top: 30px;
-    font-size: 60px;
-    }
-    
-    .text{
-    font-size: 19px;
-    padding-top: 80px;
-    padding-left: 45px;
-    padding-right: 45px;
-    }
-    }
-    
-    @media only screen and (min-width:1300px) {
-    
-    .video{
-    width: 1100px;
-    height: 900px;
-    }
-    
-    header{
-    padding-top: 30px;
-    font-size: 70px;
-    }
-    
-    .text{
-    font-size: 25px;
-    padding-top: 80px;
-    padding-left: 85px;
-    padding-right: 85px;
-    }
-    }
-    
-    @media only screen and (min-width:1800px) {
-    .video{
-    width: 1500px;
-    height: 900px;
-    }
-    
-    header{
-    padding-top: 30px;
-    font-size: 80px;
-    }
-    
-    .text{
-    font-size: 25px;
-    padding-top: 80px;
-    padding-left: 185px;
-    padding-right: 185px;
-    }
-    }
-    
-    
-    
-    
+height: 100%;
+
+}
+
+body{
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+background-color: black;
+}
+
+.home_button{
+text-align:end;
+}
+
+
+header{
+padding-top: 30px;
+text-align: center;
+color: rgb(228, 221, 204);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+}
+
+h2{
+padding-top: 10px;
+text-align: center;
+color: rgb(228, 221, 204);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+
+h5{
+padding-top: 10px;
+text-align: center;
+color: rgb(228, 221, 204);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+
+main{
+background-position: center;
+padding-top: 120px;
+text-align: center;
+}
+
+.text{
+color: rgb(155, 147, 130);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+padding-top: 80px;
+text-align: justify;
+}
+
+.img{
+padding-left: auto;
+text-align: center;
+}
+
+
+footer{
+color: rgb(228, 221, 204);
+padding-top: 200px;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 10px;
+text-align: center;
+
+}
+
+.mail_button{
+color: rgb(228, 221, 204);
+font-size: 20px;
+}
+
+.button{
+padding-left: 10px;
+}
+
+@media only screen and (min-width:150px){
+
+header{
+padding-top: 10px;
+padding-top: 20px;
+font-size: 30px;
+}
+
+.img1{
+width: 150px;
+height: 100px;
+}
+
+.img2{
+padding-top: 150px;
+width: 110px;
+height: 150px;
+}
+
+
+.text{
+font-size: 17px;
+padding-top: 50px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:300px) {
+
+.img1{
+padding-top: 20px;
+width: 300px;
+height: 200px;
+}
+
+.img2{
+padding-top: 150px;
+width: 200px;
+height: 300px;
+}
+
+header{
+padding-top: 30px;
+font-size: 40px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:500px) {
+
+.img1{
+padding-top: 30px;
+width: 500px;
+height: 400px;
+}
+
+.img2{
+padding-top: 150px;
+width: 400px;
+height: 500px;
+}
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 22px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:700px) {
+
+.img1{
+padding-top: 50px;
+width: 600px;
+height: 500px;
+}
+
+.img2{
+padding-top: 150px;
+width: 450px;
+height: 600px;
+}
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+@media only screen and (min-width:1000px) {
+
+.img1{
+padding-top: 70px;
+width: 900px;
+height: 700px;
+}
+
+.img2{
+padding-top: 150px;
+width: 800px;
+height: 900px;
+}
+
+header{
+padding-top: 30px;
+font-size: 60px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 45px;
+padding-right: 45px;
+}
+}
+
+@media only screen and (min-width:1300px) {
+
+.img1{
+padding-top: 100px;
+width: 1100px;
+height: 900px;
+}
+
+.img2{
+padding-top: 150px;
+width: 900px;
+height: 1100px;
+}
+
+header{
+padding-top: 30px;
+font-size: 70px;
+}
+
+.text{
+font-size: 25px;
+padding-top: 80px;
+padding-left: 85px;
+padding-right: 85px;
+}
+}
+
+@media only screen and (min-width:1800px) {
+.img1{
+padding-top: 150px;
+width: 1500px;
+height: 900px;
+}
+
+.img2{
+padding-top: 150px;
+width: 1200px;
+height: 1500px;
+}
+
+header{
+padding-top: 30px;
+font-size: 80px;
+}
+
+.text{
+font-size: 25px;
+padding-top: 80px;
+padding-left: 185px;
+padding-right: 185px;
+}
+}
+
+
+

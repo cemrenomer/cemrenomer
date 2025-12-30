@@ -1,0 +1,246 @@
+html{
+height: 100%;
+
+}
+
+body{
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+background-color: black;
+}
+
+.home_button{
+text-align:end;
+}
+
+
+header{
+padding-left: auto;
+text-align: center;
+color: rgb(228, 221, 204);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+padding-top: 10px;
+text-align: center;
+color: rgb(228, 221, 204);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+
+main{
+background-position: center;
+padding-top: 120px;
+text-align: center;
+}
+
+.text{
+color: rgb(155, 147, 130);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+padding-top: 80px;
+text-align: justify;
+}
+
+.video{
+padding-left: auto;
+text-align: center;
+}
+
+
+footer{
+color: rgb(228, 221, 204);
+padding-top: 200px;
+font-family:Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+.mail_button{
+color: rgb(228, 221, 204);
+font-size: 20px;
+}
+
+.button{
+padding-left: 10px;
+}
+
+@media only screen and (min-width:150px){
+
+header{
+padding-top: 20px;
+font-size: 30px;
+}
+
+.video{
+width: 100%;
+height: 100px;
+}
+
+.brainstorm img{
+padding-top: 30px;
+width: 150px;
+}
+
+.text{
+font-size: 17px;
+padding-top: 50px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+footer{
+font-size: 3px;
+}
+}
+
+@media only screen and (min-width:300px) {
+
+.video{
+width: 100%;
+height: 200px;
+}
+
+header{
+padding-top: 30px;
+font-size: 40px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+footer{
+font-size: 3px;
+}
+}
+
+
+@media only screen and (min-width:500px) {
+
+.video{
+width: 100%;
+height: 400px;
+}
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 22px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+footer{
+font-size: 5px;
+}
+
+}
+
+@media only screen and (min-width:700px) {
+
+.video{
+width: 100%;
+height: 500px;
+}
+
+header{
+padding-top: 30px;
+font-size: 50px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+footer{
+font-size: 7px;
+}
+}
+
+
+@media only screen and (min-width:1000px) {
+
+.video{
+width: 100%;
+height: 700px;
+}
+
+header{
+padding-top: 30px;
+font-size: 60px;
+}
+
+.text{
+font-size: 19px;
+padding-top: 80px;
+padding-left: 45px;
+padding-right: 45px;
+}
+
+footer{
+font-size: 10px;
+}
+
+}
+
+@media only screen and (min-width:1300px) {
+
+.video{
+width: 100%;
+height: 900px;
+}
+
+header{
+padding-top: 30px;
+font-size: 70px;
+}
+
+.text{
+font-size: 25px;
+padding-top: 80px;
+padding-left: 85px;
+padding-right: 85px;
+}
+
+footer{
+font-size: 10px;
+}
+}
+
+@media only screen and (min-width:1800px) {
+.video{
+width: 100%;
+height: 1100px;
+}
+
+header{
+padding-top: 30px;
+font-size: 80px;
+}
+
+.text{
+font-size: 25px;
+padding-top: 80px;
+padding-left: 185px;
+padding-right: 185px;
+}
+
+footer{
+font-size: 10px;
+}
+}
+
+
+
